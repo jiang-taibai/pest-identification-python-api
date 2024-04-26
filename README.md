@@ -26,22 +26,18 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 # 2. 权重下载
 
-- 夸克网盘：[https://pan.quark.cn/s/890b9458a788](https://pan.quark.cn/s/890b9458a788) 提取码：3SaF
+- 夸克网盘：[https://pan.quark.cn/s/5c16857e48c1](https://pan.quark.cn/s/5c16857e48c1) 提取码：UVAe
 - 联系方式：如果你需要其他方式下载，请联系我的邮箱 `emailtojiang@gmail.com`
 
 将 `ResNeXt50.pth` 和 `ResNeXt50_32x4d.pth` 放到 `resnet/` 目录下
 将 `YOLOv5.pt` 放到 `yolov5/weights/` 目录下
 
-我用夸克网盘分享了「权重」，点击链接即可保存。打开「夸克APP」，无需下载在线播放视频，畅享原画5倍速，支持电视投屏。
-链接：https://pan.quark.cn/s/5c16857e48c1
-提取码：UVAe
-
-# 2. 执行
+# 3. 执行
 
 ```shell
 python main.py
 ```
 
-# 3. 相关配置
+# 4. 相关配置
 
 - 端口：`main.py` 中的 `port` 变量，默认 `8899`
